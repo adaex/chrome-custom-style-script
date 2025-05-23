@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Style Script",
+  "version": "0.1.0",
+  "description": "Add custom styles (CSS) or javascript (JS) code to page",
+  "icons": {
+    "128": "icon/icon_128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://yuanbao.tencent.com/*"],
+      "css": ["style/yuanbao.css"]
+    }
+  ]
+}
