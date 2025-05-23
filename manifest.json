@@ -10,6 +10,10 @@
     {
       "matches": ["https://yuanbao.tencent.com/*"],
       "css": ["style/yuanbao.css"]
+    },
+    {
+      "matches": ["https://github.com/copilot/*"],
+      "css": ["style/github-copilot.css"]
     }
   ]
 }
