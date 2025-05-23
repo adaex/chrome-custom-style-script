@@ -1,4 +1,3 @@
-/* 当视口宽度小于某个值时应用的样式 */
 @media (max-width: 1727px) {
   .yb-layout .agent-dialogue__tool__download {
     display: none !important;
